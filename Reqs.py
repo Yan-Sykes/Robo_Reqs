@@ -6,8 +6,8 @@ import os
 from datetime import datetime
 
 # Caminho padrão do arquivo Excel (parametrizável)
-ARQUIVO_PADRAO = r"\\br03file\pcoudir\Operacoes\10. Planning Raw Material\Gerenciamento de materiais\Atividades diarias\Robo Atualizacao de Datas Fornecedores\Alterar_pedidos.xlsx"
-LOG_PASTA = r"\\br03file\pcoudir\Operacoes\10. Planning Raw Material\Gerenciamento de materiais\Atividades diarias\Robo Atualizacao de Datas Fornecedores\Log"
+ARQUIVO_PADRAO = r"Alterar_pedidos.xlsx"
+LOG_PASTA = r"Log"
 
 # Variável global para armazenar o caminho do arquivo Excel selecionado
 arquivo_excel = None
